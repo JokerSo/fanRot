@@ -2,7 +2,7 @@ import time
 import fanfou
 
 #987654321
-consumer = {'key':'', 'secret':''}
+consumer = {'key':'1', 'secret':''}
 
 
 # client = fanfou.XAuth(consumer, 'username', 'password')
