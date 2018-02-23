@@ -2,12 +2,12 @@ import time
 import fanfou
 
 #987654321
-consumer = {'key':'1', 'secret':''}
+consumer = {'key':'', 'secret':''}
 
 
 # client = fanfou.XAuth(consumer, 'username', 'password')
 
-client = fanfou.XAuth(consumer, '', '')
+client = fanfou.XAuth(consumer, '@sina.com', '')
 fanfou.bound(client);
 resp = client.users.show()
 resp = resp.json()
